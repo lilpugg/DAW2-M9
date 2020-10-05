@@ -1,0 +1,102 @@
+*{ 
+    margin: 0%;
+    padding: 0%;
+ }
+ body{
+     padding: 1rem;
+ }
+.container {
+    width: 800px;           /* Este es lo que ocupa */
+    max-width: 800px;       /* Esto es lo que puede ocupar como maximo */
+    margin: auto;
+    font-family: Text, sans-serif;
+    
+ }
+ image{
+    max-width: 100%;
+ }
+ header{
+     display: flex;
+ }
+ .logo{
+     flex: 1;
+ }
+ .title{
+     flex: 4;
+     text-align: right;
+    text-transform: uppercase;
+ }
+ .title h1{
+    font: initial;
+    font-size: 2.5rem;
+    color: #bcbbbb;
+    padding-top: 1.5rem;
+    padding-top: 0.5rem;
+ }
+ hr{
+     border: thin solid #bbbbbb;
+    margin-bottom: 1rem;
+ }
+ .title h3{
+     font-size: small;
+ }
+ h2{
+    font: initial;
+    font-size: 1.6rem;
+    font-weight: normal; 
+    color: #bcbbbb;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+ }
+ .items-container {
+    display: flex;
+    justify-content: space-between;
+ }
+.item{
+    text-align: center;
+} 
+.item h3{
+    text-transform: uppercase;
+font-size: 1.6rem;
+color: #747704;
+}
+.item a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: smaller;
+    color: #747704; 
+}
+@font-face {
+    font-family: "Main title";
+    src: url(../fonts/Lato-Hairline.ttf) format("truetype");
+ }
+ @font-face {
+    font-family: Text;
+    src: url(../fonts/Lato-Light.ttf) format("truetype");
+ }
+ 
+ @media screen and (max-width: 400px) {
+
+    .items-container {
+        flex-direction: column;
+    }
+ 
+    .item {
+        width: 200px;
+        margin: auto;
+        padding-bottom: 1rem;
+    }
+
+    h2 {
+        text-align: center;
+        padding-left: 0px;
+        font-size: 2rem;
+    }
+ 
+    .logo {
+        padding-top: 1.1rem;
+    }
+   
+ }
+ 
