@@ -20,14 +20,6 @@
     margin: auto;
     max-width: 960px;
  }
- * {
-    padding: 0.5rem;
-    box-sizing: border-box;
- }
-
- /*[class|="col"] {
-    margin: 0px 0.25rem;
- }*/
  [class|="col"] + [class|="col"] {
     margin-left: 0.5rem;
  }
@@ -41,6 +33,17 @@
 img {
     max-width: 100%;
 }
+* {
+   margin: 0px;
+   padding: 0px;
+   font-family: 'Lato', sans-serif;
+}
+
+body {
+   margin: 0.5rem;
+   padding: 0.5rem;
+}
+
  
  
  
