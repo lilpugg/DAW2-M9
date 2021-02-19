@@ -115,7 +115,7 @@
    position: relative;
    text-align: center;
    color: white;
-   padding-bottom: 50px;
+   
  }
  .centered {
    text-shadow: 2px 2px #333;
@@ -203,4 +203,14 @@
    font-weight: bold;
    
 }
- 
+.row-6 {
+   display: flex;
+   
+}
+.row-productos{
+   background-color: gray;
+}
+.productos {
+   display: flex;
+   background-color: gray;
+} 
